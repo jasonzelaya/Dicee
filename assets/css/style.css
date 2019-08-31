@@ -1,0 +1,25 @@
+body {
+  background-color: gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: #fff;
+  font-size: 2rem;
+}
+
+img {
+  width: 80%;
+}
+
+.container {
+  text-align: center;
+}
+
+.dice {
+  display: inline-block;
+  text-align: center;
+}
