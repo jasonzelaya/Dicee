@@ -1,6 +1,24 @@
 // Game Plan
-// 
-// add any dice image as the src for both <img> in index.html
+//
 // get .dice1 and .dice2 to randomly change images every time the page is refreshed
-// generate random "rolls" for image swaps
 // change <h1> to display the winner or a draw
+
+
+
+
+// Create a random number from 1-6
+var randomNum = Math.floor(Math.random() * 6) + 1;
+
+function rollDice(){
+
+    $('.img1').attr('src', 'assets/images/dice' + randomNum + '.png');
+    $('.img2').attr('src', 'assets/images/dice', +randomNum + '.png');
+};
+
+
+
+
+
+
+
+//
