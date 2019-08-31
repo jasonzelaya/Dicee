@@ -7,16 +7,19 @@
 
 
 // Create a random number from 1-6
-var randomNum = Math.floor(Math.random() * 6) + 1;
+var randomNum1 = Math.floor(Math.random() * 6) + 1;
+// Select an image based on the value of randomNum1
+var randomDiceImg1 = 'assets/images/dice' + randomNum1 + '.png';
 
-function rollDice(){
+// Create a random number from 1-6
+var randomNum2 = Math.floor(Math.random() * 6) + 1;
+// Select an image based on the value of randomNum1
+var randomDiceImg2 = 'assets/images/dice' + randomNum2 + '.png';
 
-    $('.img1').attr('src', 'assets/images/dice' + randomNum + '.png');
-    $('.img2').attr('src', 'assets/images/dice', +randomNum + '.png');
-};
-
-
-
+// Set .img1's src value to the path value of randomDiceImg1
+$('.img1').attr('src', randomDiceImg1);
+// Set .img2's src value to the path value of randomDiceImg2
+$('.img2').attr('src', randomDiceImg2);
 
 
 
