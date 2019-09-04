@@ -1,2 +1,1 @@
-Dicee
-####-- Status: Active
+Status: Active
